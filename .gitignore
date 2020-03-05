@@ -1,0 +1,11 @@
+## folders
+node_modules/
+coverage/
+build/
+
+## hidden files
+.editorconfig
+.DS_Store
+
+## lock files
+package-lock.json
