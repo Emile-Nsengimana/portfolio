@@ -1,4 +1,4 @@
-import AwesomeSlider from 'react-awesome-slider';
+// import AwesomeSlider from 'react-awesome-slider';
 // import AwsSliderStyles from 'react-awesome-slider/src/styles.scss';
 import React_img from '../img/react.png';
 import Flask_img from '../img/flask.png';

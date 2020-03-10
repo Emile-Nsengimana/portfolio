@@ -10,8 +10,10 @@ import Slider from '../components/Slider';
 import js from '../img/js.jpeg';
 import python from '../img/last_logo.png';
 import htmlCss from '../img/html-css.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCircle } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircle } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faFacebook, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+
 
 const Home = () => {
   return (
@@ -86,7 +88,7 @@ const Home = () => {
       </div>
       <div>
         <div className="chat-box" id="chat-box" style={{width: "25%", height: "20rem", backgroundColor: "white", position: "fixed", right: "2rem", top: "61vh", borderRadius: ".7rem", padding: "1rem", boxShadow: " .2rem .1rem .2rem .2rem rgba(5, 47, 82, .3)"}}>
-          <div><a style={{fontSize: "35px", float: "right"}} href="/">&times;</a></div>
+          <div><a style={{fontSize: "35px", float: "right"}} href="#">&times;</a></div>
           <div style={{ borderBottom: "1px solid white", padding: "1rem", borderRadius: ".7rem", backgroundColor: "rgba(5, 47, 82, .4)"}}>
           Hi there 👋,
           </div>
@@ -98,6 +100,13 @@ const Home = () => {
         <FontAwesomeIcon className="chat-avatar-icon" icon={faCircle}/>
       </a>
       <footer className="footer">
+        <div className="footer-links">
+          <a href="https://github.com/Emile-Nsengimana" target="_blank"><FontAwesomeIcon className="footer-links-social footer-links-social_git" icon={faGithub}/></a>
+          <a href="https://www.facebook.com/nemile1" target="_blank"><FontAwesomeIcon className="footer-links-social footer-links-social_fb" icon={faFacebook}/></a>
+          <a href="https://www.linkedin.com/in/nsengimana-emile-580204111" target="_blank"><FontAwesomeIcon className="footer-links-social footer-links-social_linkedin" icon={faLinkedinIn}/></a>
+          <a href="https://www.instagram.com/emilereas7" target="_blank"><FontAwesomeIcon className="footer-links-social footer-links-social_instagram" icon={faInstagram}/></a>
+        </div>
+        <h5>EMILE NSENGIMANA &copy;2020.</h5>
       </footer>
     </>
   );
