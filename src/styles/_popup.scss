@@ -1,0 +1,72 @@
+
+$color-primary: rgb(5, 47, 82);
+$color-primary-prefered: rgb(0, 128, 128);
+
+.popup{
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 1.5s;
+
+  &-contact{
+    width: 70%;
+    height: 65%;
+    background-color: whitesmoke;
+    margin: 10% auto;
+    border-radius: 3px;
+  }
+
+  &-contact-content{
+    display: flex;
+    padding: 7% 3rem;
+    border-radius: 7px;
+
+    &_msg{
+      flex: 2;
+      box-shadow: 4px 2px 5px 0px rgba($color-primary, .75);
+    }
+
+    &_more{
+      margin: auto;
+      flex: 1;
+
+      & > div{
+        width: 80%;
+        height: 5rem;
+        margin: 2rem auto;
+        padding: 1rem;
+        border: none;
+        text-align: center;
+        color: $color-primary-prefered;
+        border-left: .7rem solid $color-primary;
+        background-color:rgba($color-primary, .1);
+        -webkit-box-shadow: 4px 2px 5px 0px rgba($color-primary, .75);
+        -moz-box-shadow: 4px 2px 5px 0px rgba($color-primary, .75);
+        box-shadow: 4px 2px 5px 0px rgba($color-primary, .75);
+      }
+  }
+}
+
+  &:target{
+    opacity: 1;
+    visibility: visible;
+  }
+
+  & #close_login, & #close_signup{
+      color: rgb(5, 47, 82);
+      border-radius: 50px;
+      font-size: 40px;
+      float: right;
+
+    &:hover{
+      color: rgb(250, 19, 19);
+    }
+  }
+}
+

@@ -1,5 +1,7 @@
+@import "./popup";
+@import "./animations";
+
 $color-primary: rgb(5, 47, 82);
-// $color-primary-second: $color-primary;
 $color-primary-prefered: rgb(0, 128, 128);
 
 *,
@@ -30,11 +32,6 @@ a{
   font-size: 1.7rem;
   margin-right: 1rem;
   cursor: pointer;
-
-  &:hover{
-    color: $color-primary-prefered;
-    border-bottom: .5px solid $color-primary-prefered;
-  }
 }
 
 .container{
@@ -50,6 +47,11 @@ a{
   width: 100%;
   height: 5rem;
   z-index: 10000;
+
+  & a:hover{
+    color: $color-primary-prefered;
+    border-bottom: .5px solid $color-primary-prefered;
+  }
 
   .logo{
     display: inline-block;
@@ -108,7 +110,7 @@ a{
   &-header{
     color: white;
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 3rem;
@@ -130,9 +132,11 @@ a{
         margin: auto;
     }
 
-    & > button{
-      width: 20%;
-      margin: 3rem 40%;
+    a{
+      margin: 3rem auto;
+      display: flex;
+      text-align: center;
+      align-self: center;
       color: rgba(165, 192, 42, 0.739);
       font-size: 1.5rem;
       font-weight: 700;
@@ -141,7 +145,7 @@ a{
         color: whitesmoke;
         box-shadow: 0 .2rem .2rem 0 rgba($color-primary-prefered, .4);
       }
-  }
+    }
 }
 
   & .wave{
@@ -327,18 +331,21 @@ a{
   margin: auto;
 
   &-default{
-    width: 30rem;
+    width: fit-content;
     line-height: 2rem;
-    margin: 2rem;
-    padding: 1.2rem;
+    padding: 1.2rem 3rem;
     border-radius: 5rem;
     outline: none;
     background-color: $color-primary-prefered;
-    border: .5px solid $color-primary;
     cursor: pointer;
+    display: block;
+    margin: 2rem auto;
+    font-size: 1.4rem;
+    color: rgba(165, 192, 42, 0.739);
+    font-weight: 700;
 
     &:hover{
-      background: transparent;
+      background: $color-primary;
       color: white;
       border: 1px solid $color-primary-prefered;
     }
@@ -379,5 +386,26 @@ a{
     position: fixed;
     top: 90%;
     right: 1%;
+  }
+}
+
+.input-txt{
+  outline: none;
+  width: 75%;
+  padding: 5px;
+  border: none;
+  border-bottom: .5px solid rgba($color-primary, 0.4);
+  font-weight: 300;
+  font-size: 1.3rem;
+  letter-spacing: .5rem;
+  line-height: 2rem;
+  margin: 1rem auto;
+  display: block;
+  background-color: inherit;
+
+  &_area{
+    height: 20rem;
+    resize: none;
+    display: block;
   }
 }

@@ -1,20 +1,21 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCircle } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircle } from '@fortawesome/free-solid-svg-icons';
+
 const MenuBar = () => (
   <nav className="navbar">
     <span>
-    <Link className="logo"
+      <Link className="logo"
         to="home"
         smooth
         offset={-200}
         duration={1000}
       >
-      Emile Nnsegimana
+        Emile Nnsegimana
       </Link>
       <span className="user user-status">
-        <FontAwesomeIcon style={{marginRight: "1rem", color: "green"}} icon={faCircle}/>
+        <FontAwesomeIcon style={{ marginRight: "1rem", color: "green" }} icon={faCircle} />
         online
       </span>
       <span><a className="user user-chat" href="#chat-box">chat now</a></span>
@@ -31,26 +32,26 @@ const MenuBar = () => (
       <Link
         to="about"
         smooth
-        offset={-200}
+        offset={-230}
         duration={2000}
       >
-      ABOUT
+        ABOUT
       </Link>
       <Link
         to="project"
         smooth
-        offset={-100}
+        offset={-30}
         duration={2000}
       >
-      PROJECT
+        PROJECT
       </Link>
       <Link
         to="home"
         smooth
-        offset={-100}
+        offset={-200}
         duration={2000}
       >
-      RESUME
+        RESUME
       </Link>
     </div>
   </nav>
