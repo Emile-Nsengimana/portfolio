@@ -14,6 +14,10 @@ $color-primary-prefered: rgb(0, 128, 128);
   visibility: hidden;
   transition: all 1.5s;
 
+  & a{
+    margin: 0 1.5rem;
+  }
+
   &-contact{
     width: 70%;
     height: 65%;

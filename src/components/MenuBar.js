@@ -32,7 +32,7 @@ const MenuBar = () => (
       <Link
         to="about"
         smooth
-        offset={-230}
+        offset={-200}
         duration={2000}
       >
         ABOUT
