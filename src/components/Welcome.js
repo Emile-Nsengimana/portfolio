@@ -16,9 +16,9 @@ const Welcome = () => {
             networks,
           </li>
           <li>Available world wide! (😀 the power of remote working)</li>
-          <li>and a team player</li>
-          <li>
-            want to Know more about me?&nbsp;
+          <li>and a team player.</li>
+          <li className="special">
+            Want to Know more about me?&nbsp;
             <span id="more">
               <Link to="about" smooth offset={-210} duration={1000}>
                 yes

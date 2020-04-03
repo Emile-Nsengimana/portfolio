@@ -190,6 +190,22 @@ a {
     }
   }
 
+  & .skill-container {
+    width: 25%;
+    height: 80%;
+    display: inline-block;
+
+    & img {
+      width: 100%;
+      height: 40%;
+      object-fit: contain;
+    }
+
+    & p {
+      height: 40%;
+    }
+  }
+
   &__tools {
     height: 27%;
 
@@ -428,4 +444,10 @@ a {
     resize: none;
     display: block;
   }
+}
+
+.special {
+  font-style: italic;
+  margin-top: 2rem;
+  font-size: 20px;
 }
