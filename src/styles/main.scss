@@ -98,7 +98,7 @@ a {
 
   &__menu {
     float: right;
-    margin-right: 15rem;
+    margin-right: 5rem;
     padding: 1rem;
 
     & a:hover {
@@ -178,7 +178,7 @@ a {
 }
 
 .skills {
-  height: 80vh;
+  height: 70vh;
   border-bottom: 0.5px solid rgba(128, 128, 128, 0.61);
 
   &__language {
@@ -192,8 +192,16 @@ a {
 
   & .skill-container {
     width: 25%;
-    height: 80%;
+    height: 95%;
     display: inline-block;
+
+    & ul{
+      list-style: none;
+      text-align: center;
+      color: $color-primary-prefered;
+      font-size: 20px;
+      font-weight: 400;
+    }
 
     & img {
       width: 100%;
@@ -207,13 +215,13 @@ a {
   }
 
   &__tools {
-    height: 27%;
+    // height: 15%;
 
     & > img {
-      width: 15%;
-      height: 70%;
-      object-fit: cover;
-      display: inline-block;
+      // width: 15%;
+      // height: 70%;
+      // object-fit: cover;
+      // display: inline-block;
     }
   }
 }

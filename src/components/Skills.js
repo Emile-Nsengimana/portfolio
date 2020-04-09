@@ -17,34 +17,28 @@ const Skills = () => {
             alt=""
           />
           <h4 className="title-primary-sm">JavaScript</h4>
-          <p>
-            I have been speaking this language for more than 3 years where It
-            turned out to be my favority due to it's irresistable power on both
-            front-end & back-end.
-          </p>
+          <ul>
+            <li>+2 years</li>
+            <li>+12 projects</li>
+          </ul>
         </div>
 
         <div className="skill-container">
           <img src={htmlCss} alt="" />
           <h4 className="title-primary-sm">HTML/CSS</h4>
-          <p>
-            It has been more than 3 years since I started using HTML/CSS witch
-            is considered to be everyone's first step into the world of web
-            development
-          </p>
+          <ul>
+            <li>+4 years</li>
+            <li>+20 projects</li>
+          </ul>
         </div>
 
         <div className="skill-container">
-          <img
-            style={{ width: "100%", height: "40%", objectFit: "contain" }}
-            src={python}
-            alt=""
-          />
+          <img src={python} alt="" />
           <h4 className="title-primary-sm">Python</h4>
-          <p>
-            Python is on the top of the stack of my newest language, I have now
-            almost 1 year of experience and am looking forward to explore more
-          </p>
+          <ul>
+            <li>6 months</li>
+            <li>2 projects</li>
+          </ul>
         </div>
       </div>
       <div className="skills__tools">

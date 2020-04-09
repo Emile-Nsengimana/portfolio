@@ -82,7 +82,7 @@ const Tools = () => {
   );
 
   let icons = (<CarouselSlider
-    sliderBoxStyle={{ height: "7rem", marginTop: "-2rem", width: "100%", background: "white" }}
+    sliderBoxStyle={{ height: "7rem", marginTop: "-2rem", width: "90%", background: "white" }}
     accEle={{ dots: false }}
     slideCpnts={iconsSlides}
     itemsStyle={iconItemsStyle}
@@ -91,7 +91,7 @@ const Tools = () => {
     lBtnCpnt={lBtnCpnt}
   />);
 
-  return (<div style={{ position: "relative", margin: "0 auto", width: "100%" }} >
+  return (<div style={{ position: "relative", margin: "0 auto", width: "90%" }} >
     {icons}
   </div>);
 };

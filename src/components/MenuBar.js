@@ -26,7 +26,7 @@ const MenuBar = () => (
       <Link to="home" smooth offset={-200} duration={1000}>
         HOME
       </Link>
-      <Link to="about" smooth offset={-91} duration={1500}>
+      <Link to="about" smooth offset={-90} duration={1500}>
         ABOUT
       </Link>
       <Link to="project" smooth offset={-30} duration={1500}>
