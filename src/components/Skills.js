@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <section className="skills">
       <div className="skills__language">
-        <h3 className="title-primary" style={{ opacity: ".5" }}>
+        <h3 className="title-primary">
           Languages I speak
         </h3>
         <div className="skill-container">
@@ -42,9 +42,9 @@ const Skills = () => {
         </div>
       </div>
       <div className="skills__tools">
-        <h3 className="title-primary" style={{ opacity: ".5" }}>
+        {/* <h3 className="title-primary">
           Dev Tools & FRAMEWORKS
-        </h3>
+        </h3> */}
         <Tools />
       </div>
     </section>

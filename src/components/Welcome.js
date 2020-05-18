@@ -6,16 +6,16 @@ const Welcome = () => {
   return (
     <section className="welcome" id="home">
       <h1 className="welcome-header">
-        Hi, there! <span className="welcome-header_sm">welcome</span>
+        Hi, there! <span className="welcome-header_sm">I am Emile</span>
       </h1>
       <div className="welcome-body">
         <ul>
-          <li>I am a full stack web developer</li>
+          <li>A full-stack software developer</li>
           <li>
             Who is passionate about computer programming &amp; computer
             networks,
           </li>
-          <li>Available world wide! (😀 the power of remote working)</li>
+          <li>Available worldwide! (😀 the power of remote working)</li>
           <li>and a team player.</li>
           <li className="special">
             Want to Know more about me?&nbsp;

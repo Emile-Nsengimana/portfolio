@@ -26,10 +26,10 @@ const MenuBar = () => (
       <Link to="home" smooth offset={-200} duration={1000}>
         HOME
       </Link>
-      <Link to="about" smooth offset={-90} duration={1500}>
+      <Link to="about" smooth offset={-80} duration={1500}>
         ABOUT
       </Link>
-      <Link to="project" smooth offset={-30} duration={1500}>
+      <Link to="project" smooth offset={-45} duration={1500}>
         PROJECT
       </Link>
       <a href="https://resume.io/r/dFfpsc4Gw" target="_blank">
